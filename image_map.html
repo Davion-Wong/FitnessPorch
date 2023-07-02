@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- This page contains some images about fitness -->
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    <title>Image_map</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+    <div id="Navigator" style="background-color: white;"> 
+      <!-- This logo is my own design. Other labels link to different pages. They appear differently when hovered -->
+      <a href="index.html"><img src="Images/Logo1.png" id="logo" alt="Fitness Porch logo image" width=160></a> &nbsp;
+      <a href="gallery.html">Gallery</a> &nbsp;
+      <a href="image_map.html">Image map</a> &nbsp;
+      <a href="simulator.html">Simulator</a> &nbsp;
+      <a href="feedback.html">Advice</a> &nbsp;
+      <a href="sourcelog.html">Source log</a> &nbsp;
+      <a href="sitemap.html">Site map</a> &nbsp;
+      <a href="me.html">About me</a>
+    </div>
+    <div style="background-color: #458B74; text-align:center;">
+      <!-- Just a serious of images to show the process the benifits of fitness. They are formatted as center-aligned, and boardered. -->
+      <h3 id="My_Images" style="color: white;">Image map</h3>
+      <p>On the images below, click on your disired muscle to see how to build it:</p>
+      <img src="./Images/image8.jpg" class="Big_images" usemap="#Image_map1" alt="">
+      <map name="Image_map1">
+        <area shape="rect" coords="460,400,500,470" href="image_map_biceps.html" alt="">
+        <area shape="rect" coords="400,400,440,500" href="image_map_triceps.html" alt="">
+        <area shape="rect" coords="400,270,520,380" href="image_map_deltoid.html" alt="">
+        <area shape="rect" coords="530,300,690,400" href="image_map_pectorales.html" alt="">
+        <area shape="rect" coords="580,420,670,550" href="image_map_abdominal.html" alt="">
+      </map>
+      <img src="./Images/image9.jpg" class="Big_images" usemap="#Image_map2" alt="">
+      <map name="Image_map2">
+        <area shape="rect" coords="200,370,300,490" href="image_map_triceps.html" alt="">
+        <area shape="rect" coords="720,350,770,490" href="image_map_triceps.html" alt="">
+        <area shape="rect" coords="270,240,380,330" href="image_map_deltoid.html" alt="">
+        <area shape="rect" coords="640,210,720,330" href="image_map_deltoid.html" alt="">
+        <area shape="rect" coords="220,340,700,490" href="image_map_back.html" alt="">
+      </map>
+    </div>
+  </body>
+</html>

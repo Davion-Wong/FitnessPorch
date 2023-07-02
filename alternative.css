@@ -1,0 +1,208 @@
+/* This part controls the introduction text in the index page */
+#Introduction {
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+/* This enables the logo in the upper left corner to switch to a small hand when hovered*/
+#logo:hover {
+    cursor: pointer;
+}
+
+/* This controls all h3 headings*/
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 60px;
+    vertical-align: bottom;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/* This controls all h5 headings*/
+h5 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 0px;
+    vertical-align: bottom;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* This controls all big images except those in gallery*/
+.Big_images {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+    border: 5px solid blue;
+    font-size: 0;
+    text-align: center;
+}
+
+/* This controls all images in gallery*/
+.Gallery_images {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    border: 5px solid white;
+    /* border-bottom: 150px solid white; */
+    font-size: 0;
+    text-align: center;
+}
+
+/* This controls the identical navigators in all pages*/
+#Navigator {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This controls all links*/
+a{
+    width: 200px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* This enables all links to change color when hovered*/
+a:hover{
+    background-color: blueviolet;
+}
+
+/* This removes the annoying margin surrondding the body part*/
+body{
+    margin: 0;
+}
+
+/* This controls the format of the form in the feedback(advice) page*/
+form {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This controls the common text input parts*/
+input[type="text"]{
+    width: 90%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* This controls the multi-line text input parts*/
+textarea{
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* This controls the "submit" botton*/
+input[type="submit"]{
+    background-color: lightblue;
+}
+
+/* This controls the "clear" botton*/
+input[type="reset"]{
+    background-color: lightgreen;
+}
+
+/* This controls the "submit" botton when hovered*/
+input[type="submit"]:hover{
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* This controls the "clear" botton when hovered*/
+input[type="reset"]:hover{
+    color:white;
+    background-color: green;
+    cursor: pointer;
+}
+
+/* This controls the captions above tables*/
+caption {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This controls all tables*/
+table{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This controls the format of table headings, table rows, and table columes*/
+th, tr, td{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+/* This controls the color of table headings*/
+th{
+    color: yellow;
+    background-color: darkblue;
+}
+
+/* This enables table rows to change color when hovered*/
+tr:hover{
+    color: white;
+}
+
+/* This controls the format of common paragraphs*/
+p{
+    width: 80%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 0;
+    line-height: 30px;
+}
+
+/* This controls the font size of the Bottom menu*/
+#Bottom_menu {
+    font-size: larger;
+}
+
+#Main {
+    background-color: blueviolet;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- This page is for feedback collection from visitors -->
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body> 
+    <div id="Navigator" style="background-color: white;"> 
+      <!-- This logo is my own design. Other labels link to different pages. They appear differently when hovered -->
+      <a href="index.html"><img src="Images/Logo1.png" id="logo" alt="Fitness Porch logo image" width=160></a> &nbsp; 
+      <a href="gallery.html">Gallery</a> &nbsp;
+      <a href="image_map.html">Image map</a> &nbsp;
+      <a href="simulator.html">Simulator</a> &nbsp;
+      <a href="feedback.html">Advice</a> &nbsp;
+      <a href="sourcelog.html">Source log</a> &nbsp;
+      <a href="sitemap.html">Site map</a> &nbsp;
+      <a href="me.html">About me</a>
+    </div>
+    <div style="background-color: #458B74;">
+      <!-- This is a typical feedback form to collect visitors' opinion. Single-line text, multi-line text, options, and drop-down list are all implemented here. -->
+      <h3 id="Feedback_Form_h3"   style="background-color: #458B74;">Feedback Form</h3>
+      <form enctype="text/plain" action="mailto:u7373400@anu.edu.au">
+          Your name<br>
+          <input type="text" name="name" size="33" maxlength="50" placeholder="e.g. Keanu Reeves"><br>
+          Your email address<br>
+          <input type="text" name="email address" size="33" maxlength="50" placeholder="e.g. Keanu_Reeves@gmail.com"><br>
+          What is your gender?
+          <input type="radio" id="Male" name="gender" size="33" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Famale" name="gender" size="33" value="Famale">
+        <label for="Famale">Famale</label>
+        <input type="radio" id="Other" name="gender" size="33" value="Other">
+        <label for="Other">Other</label>
+        <input type="radio" id="I_prefer_not_to_say" name="gender" size="33" value="I prefer not to say">
+        <label for="I_prefer_not_to_say">I prefer not to say</label><br><br>
+      <label for="Topic">Which aspect of topic is your advice about?</label>
+      <select name="Topics" id="Topic">
+        <option value="Muscle_gain">Muscle gain</option>
+        <option value="Fat_loss">Fat loss</option>
+        <option value="Diet">Diet</option>
+        <option value="Community">Community</option>
+        <option value="Guidance">Guidance</option>
+        <option value="Other">Other</option>
+      </select><br><br>
+        Please fill in your feedback<br>
+        <textarea cols="50" rows="10" placeholder=" - Tell us anything you would like to say : )"></textarea><br>
+        <hr>
+          Submit:
+        <input type="submit" value="Send it">
+        or
+        <input type="reset" value="Clear">
+          <hr>
+      </form>
+    </div>
+  </body>
+</html>
